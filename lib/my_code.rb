@@ -24,6 +24,6 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-  source_array.reduce { |beTrue, beFalse| if beTrue == true; return true; end}
+  source_array.reduce { |beTrue, beFalse| if beFalse == true; return true; end}
 end
 
